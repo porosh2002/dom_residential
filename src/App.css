@@ -10,16 +10,18 @@
 .Navigation{
   height:120px;
   background-color: #fff;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
+  border-bottom: 2px solid orangered;
   display: flex;
   justify-content:space-between;
-  padding:0px 70px;
+  padding:0px 50px;
   z-index:999 !important;
   position: sticky;
   top:0;
 }
 .Logo{
-  height:120px;
+  margin-top: 16px;
+  height:150px;
 }
 .Nav_nav{
   display: flex;
@@ -36,18 +38,39 @@
   font-weight: 500;
 }
 .NavLink:hover{
-color: #ca331b;
+  color: #ca331b;
 }
 .BodyContent{
   display: flex;
   justify-content:space-between;
-  background-color: #000;
 }
 .bContentOne{
-  width:30vw;
-  background-color: royalblue;
+  width:25vw;
+  background-color:#fff;
 }
 .bContenttwo{
-  width:70vw;
-  background-color: lightcoral;
+  width:75vw;
+  background-color: springgreen;
 }
+/*! Test */
+.ServiceContentWrap{
+  padding:20px 0px;
+}
+.ContainerService{
+  width: 25vw;
+  margin:45px 0px 0px 65px;
+}
+.ContainerWithtitle{
+  margin:0px 0px 0px -65px;
+  position: fixed;
+  width:25vw;
+  /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
+}
+.TitleContent{
+  padding:40px 0px 20px 65px;
+  font-size:25px;
+  color: #343a40;
+}
+/* .ContentOne{
+  padding:10px;
+} */
