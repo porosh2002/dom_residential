@@ -4,11 +4,8 @@ import { Link } from 'react-router-dom'
 function ContentOne() {
     return (
         <div className='ContainerService'>
-            <div className='ContainerWithtitle'>
-
             <p className='TitleContent'>Services</p>
-            </div>
-        <div className='ContentOne'>
+
             
             <li className='ServiceContentWrap'>
 
@@ -70,7 +67,6 @@ function ContentOne() {
                 
             <Link className='ServiceContent' to='#'>Business concept and goals</Link>
                 </li>
-        </div>
         </div>
     )
 }

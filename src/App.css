@@ -47,30 +47,38 @@
 .bContentOne{
   width:25vw;
   background-color:#fff;
+  position: fixed;
+  top:120px;
+  height:100%;
 }
 .bContenttwo{
   width:75vw;
+  margin-left: 25vw;
   background-color: springgreen;
+  height:1500px;
 }
 /*! Test */
-.ServiceContentWrap{
-  padding:20px 0px;
-}
 .ContainerService{
-  width: 25vw;
-  margin:45px 0px 0px 65px;
-}
-.ContainerWithtitle{
-  margin:0px 0px 0px -65px;
-  position: fixed;
-  width:25vw;
-  /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
+  margin: 90px 0px 0px 65px;
 }
 .TitleContent{
-  padding:40px 0px 20px 65px;
-  font-size:25px;
-  color: #343a40;
+  font-size:20px;
+  color: #ffff;
+  padding:10px 10px 10px 65px;
+  background-color: orangered;
+  margin:0px 5px 20px -65px;
+  border: none;
+  border-top-right-radius:05px;
+  border-bottom-right-radius:05px;
 }
-/* .ContentOne{
-  padding:10px;
-} */
+.ServiceContentWrap{
+  margin:10px 0px;
+}
+.ServiceContent{
+  font-size:16px;
+  color: #343a40;
+  font-weight:500;
+}
+.ServiceContent:hover{
+color: orangered;
+}
