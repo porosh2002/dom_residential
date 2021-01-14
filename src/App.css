@@ -2,7 +2,6 @@
 *{
   margin:0px;
   padding:0px;
-  background-color: #fff;
   list-style-type:none;
   text-decoration: none;
   font-family: 'Baloo 2', cursive;
@@ -20,7 +19,7 @@
   top:0;
 }
 .Logo{
-  margin-top: 16px;
+  margin-top: 17px;
   height:150px;
 }
 .Nav_nav{
@@ -54,8 +53,6 @@
 .bContenttwo{
   width:75vw;
   margin-left: 25vw;
-  background-color:#cfcfcf;
-  height:1500px;
 }
 /*! Test */
 .ContainerService{
@@ -81,4 +78,24 @@
 }
 .ServiceContent:hover{
 color: orangered;
+}
+.ContentBody{
+  background-color:#dddddd;
+  padding:100px 0px 50px 50px;
+  color: #343a40;
+  min-height: 700px;
+}
+.Content-Title{
+  font-size:25px;
+  margin-bottom:40px;
+}
+.Content-Des{
+  font-size:17px;
+  line-height:30px;
+}
+.ContentImage{
+  height: 300px;
+  display: block;
+  margin: 30px auto;
+  border-radius:5px;
 }
