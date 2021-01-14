@@ -54,7 +54,7 @@
 .bContenttwo{
   width:75vw;
   margin-left: 25vw;
-  background-color: springgreen;
+  background-color:#cfcfcf;
   height:1500px;
 }
 /*! Test */
@@ -66,7 +66,7 @@
   color: #ffff;
   padding:10px 10px 10px 65px;
   background-color: orangered;
-  margin:0px 5px 20px -65px;
+  margin:0px 25px 20px -65px;
   border: none;
   border-top-right-radius:05px;
   border-bottom-right-radius:05px;
